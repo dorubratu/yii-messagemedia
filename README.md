@@ -1,6 +1,6 @@
 # yii-messagemedia
 Implementation of MessageMedia SMS API (http://www.messagemedia.com/sms-api/soap) using Yii 1.1 PHP framework (http://www.yiiframework.com). 
-Main class (```MessageMedia.php```) can be used on any PHP framework with some little changes.
+Main class (```MessageMedia.php```) can be used on any PHP framework with some changes.
 
 ## Usage
 - clone repository (```git clone git@github.com:dorubratu/yii-messagemedia.git```)
