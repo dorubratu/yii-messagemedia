@@ -1,0 +1,49 @@
+{
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "yiisoft/yii",
+				"version": "1.1",
+				"source": {
+					"url":"https://github.com/yiisoft/yii.git",
+					"type":"git",
+					"reference":"tags/1.1"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name": "messagemedia-php",
+				"version":"1.0",
+				"source": {
+					"url": "https://github.com/messagemedia/messagemedia-php.git",
+					"type": "git",
+					"reference":"master"
+			 }
+			}
+		}	
+	],
+
+	"autoload": {
+		"classmap": [
+			"protected/components",
+			"protected/commands",
+			"protected/controllers",
+			"dependencies/yiisoft/yii/framework/YiiBase.php",
+			"dependencies/yiisoft/yii/framework/test",
+			"dependencies/yiisoft/yii/framework/test",
+			"dependencies/messagemedia-php/mmsoap"
+		]
+	},
+
+	"require": {
+		"yiisoft/yii": "*",
+		"messagemedia-php": "1.0"
+	},
+
+	"config": {
+		"vendor-dir": "dependencies"
+	}
+}
