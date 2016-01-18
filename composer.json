@@ -30,9 +30,7 @@
 		"classmap": [
 			"protected/components",
 			"protected/commands",
-			"protected/controllers",
 			"dependencies/yiisoft/yii/framework/YiiBase.php",
-			"dependencies/yiisoft/yii/framework/test",
 			"dependencies/yiisoft/yii/framework/test",
 			"dependencies/messagemedia-php/mmsoap"
 		]
